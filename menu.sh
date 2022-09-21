@@ -22,7 +22,7 @@ echo "
 ▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░░ LISTA 01 ░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 "
-echo "Informe qual das 12 questões você deseja acessar:"
+echo "Informe qual das 12 questões você deseja acessar:" 
 read op
 if [ $op -eq 1 ]
 then
