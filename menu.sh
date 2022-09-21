@@ -24,79 +24,123 @@ echo "
 "
 echo "Informe qual das 12 questões você deseja acessar:"
 read op
-if [ op -eq 1 ]
-do
+if [ $op -eq 1 ]
+then
 
-echo "Você escolheu a questão 1"
+echo "Você escolheu a questão $op"
 echo "
 Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
 ./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
 "
-
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 2 ]
-do
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+if [ $op -eq 2 ]
+then
+
+echo "Você escolheu a questão $op"
+echo "Exercício 2 Elaborar um script que solicite a informação de um nome de usuário e verifique se o nome informado é um usuário válido no sistema (desconsiderando as diferenças entre maiúsculas e minúsculas). 
+Exemplo 1: 
+./meuscript.sh Informe o nome do usuário a ser consultado: Bill Bill não é um usuário cadastrado. 
+Exemplo 2: 
+./meuscript.sh Informe o nome do usuário a ser consultado: Linus Linus é um usuário cadastrado."
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 3 ]
-do
+if [ $op -eq 3 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "Exercício 3 Escreva um script que receba como parâmetro o caminho de um diretório e liste seus arquivos e diretórios um a um. Se for diretório, deve escrever "(dir)" ao lado do diretório. Exemplo 1: 
+./meuscript.sh /tmp arq1 arq2 dir1 (dir) xara dir2 (dir) "
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 4 ]
-do
+if [ $op -eq 4 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 5 ]
-do
+if [ $op -eq 5 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 6 ]
-do
+if [ $op -eq 6 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 7 ]
-do
+if [ $op -eq 7 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 8 ]
-do
+if [ $op -eq 8 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 9 ]
-do
+if [ $op -eq 9 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 10 ]
-do
+if [ $op -eq 10 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 11 ]
-do
+if [ $op -eq 11 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
-if [ op -eq 12 ]
-do
+if [ $op -eq 12 ]
+then
 
-"Você escolheu a questão 1"
-echo $(bash ex/ex1.sh 4 6)
+echo "Você escolheu a questão $op"
+echo "
+Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo: 
+./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
+"
+echo $(cd ex/ex$op.sh)
 fi
