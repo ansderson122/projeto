@@ -27,6 +27,8 @@ op=0
 while [ "$op" != "sair" ] ; do 
   if [ $op -eq 1 ] ; then
     echo "Você escolheu a questão $op"
+    bash enunciado/
+
     echo "
     Exercício 1 Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos. Exemplo:  
     ./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
