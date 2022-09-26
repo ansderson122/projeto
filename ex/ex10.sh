@@ -9,5 +9,6 @@ while test "$s" != "sair" ; do
     fi
     
     lista="$lista $palavra"
-    echo $lista | tr ' ' '\n' | sort -n | tr '\n' '\n'; echo 
+    echo $lista | tr ' ' '\n' | sort -n | tr '\n' '\n'; 
+    echo " "
 done
