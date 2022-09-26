@@ -34,5 +34,5 @@ while [ "$op" != "sair" ] ; do
       echo " "
       continue  
   fi
-  bash "enunciado/ex$op.sh" 
+  bash "ex/ex$op.sh" 
 done
