@@ -27,7 +27,7 @@ op=0
 while [ "$op" != "sair" ] ; do 
   read -p "Informe qual das 12 questões você deseja acessar: " op
   echo " "
-  if test -f "enunciado/ex$op.sh" ; then
+  if test -f "ex/ex$op.sh" ; then
     echo " "
     else
       echo "Tente novamente"
