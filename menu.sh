@@ -1,10 +1,5 @@
 #!/bin/bash
-
-red="\033[0;31m"
-redf="\033[0m"
-gre="\033[0;32m"
-gref="\033[0m"
-
+bash styles/texto/texCor.sh
 
 echo -e "$gre
 
@@ -25,14 +20,23 @@ echo "
 op=0
 
 while [ "$op" != "sair" ] ; do 
-  read -p "Informe qual das 12 questões você deseja acessar: " op
+  echo -n -e "$gre Informe qual das 12 questões você deseja acessar: $gref"
+  read op
+
   echo " "
-  if test -f "enunciado/ex$op.sh" ; then
-    echo " "
-    else
-      echo "Tente novamente"
-      echo " "
-      continue  
+  if [ op = "sair" ] ; then
+    echo "OBRIGADO 🤗️"
+    echo "ATE A PROXIMA 🖐️"
+    continue
   fi
-  bash "ex/ex$op.sh" 
+  
+  if [ -f "ex/ex$op.sh" ] ; then
+    echo " "
+    bash "ex/ex$op.sh" 
+    else
+      echo "Tente novamente 🤔️"
+      echo " " 
+  fi
+  
+  
 done
