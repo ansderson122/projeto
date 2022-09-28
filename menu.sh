@@ -1,5 +1,11 @@
 #!/bin/bash
-bash styles/texto/texCor.sh
+
+export red="\033[0;31m"
+export redf="\033[0m"
+export gre="\033[0;32m"
+export gref="\033[0m"
+
+
 
 echo -e "$gre
 
@@ -28,9 +34,7 @@ while [ "$op" != "sair" ] ; do
     echo "OBRIGADO 🤗️"
     echo "ATE A PROXIMA 🖐️"
     continue
-  fi
-  
-  if [ -f "ex/ex$op.sh" ] ; then
+  elif [ -f "ex/ex$op.sh" ] ; then
     echo " "
     bash "ex/ex$op.sh" 
     else
