@@ -41,6 +41,6 @@ while [ "$op" != "sair" ] ; do
     else
       echo -e "Tente novamente 🤔️ \n"
   fi
-  
-  
 done
+
+echo
