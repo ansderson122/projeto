@@ -5,6 +5,6 @@ echo "Exercício 11 Desenvolva um script que realize as operações aritméticas
     calculadora.sh 8/4 
     calculadora.sh 7-2"
 
-read -p "Digite o parâmetro: " a
+read -p "Digite uma operação: " a
 operacao=$(($a))
-echo $operacao
+echo "= $operacao"

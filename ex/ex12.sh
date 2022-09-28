@@ -1,17 +1,11 @@
 #!/bin/bash
 
-
-
- echo "Exercício 12 Desenvolva um script que apresente na tela os usuários cadastrados no sistema e os seus respectivos diretórios home. Exemplo: 
+echo "Exercício 12 Desenvolva um script que apresente na tela os usuários cadastrados no sistema e os seus respectivos diretórios home. Exemplo: 
     klayson => /home/klayson alunolab => /home/alunolab root => /root"
-
-read -p "Digite o parâmetro: " a
-
 
 # /etc/passwd etc.txt 
 usr=$(cat /etc/passwd | cut -d ":" -f1)
 dir=$(cat /etc/passwd | cut -d ":" -f6)
-
 
 pas(){
     # $1 é con

@@ -16,7 +16,6 @@ while [ $f -ne 1 ] ; do
     read -p "Digite o primeiro parâmetro: " a
     read -p "Digite o segundo parâmetro: " b
     f=$(mc $a $b)
-    echo "Digite um numero!"
 done
 
 echo $a
