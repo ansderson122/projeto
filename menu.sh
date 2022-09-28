@@ -5,6 +5,7 @@ export red="\033[0;31m"
 export redN="\033[1;31m"
 export gre="\033[0;32m"
 export cyan="\033[0;36m"
+export blu="\033[0;34m"
 
 
 
