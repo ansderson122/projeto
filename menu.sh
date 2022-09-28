@@ -28,9 +28,8 @@ op=0
 while [ "$op" != "sair" ] ; do 
   echo -n -e "$gre Informe qual das 12 questões você deseja acessar: $gref"
   read op
-
   echo " "
-  if [ op = "sair" ] ; then
+  if [ "$op" = "sair" ] ; then
     echo "OBRIGADO 🤗️"
     echo "ATE A PROXIMA 🖐️"
     continue
