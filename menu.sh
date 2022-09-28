@@ -1,9 +1,9 @@
 #!/bin/bash
-
+export f="\033[0m"
 export red="\033[0;31m"
-export redf="\033[0m"
 export gre="\033[0;32m"
-export gref="\033[0m"
+export cyan="\033[0;36m"
+
 
 
 
@@ -15,7 +15,7 @@ echo -e "$gre
   /   (_(_/_)   (_(__(/_     /     / (_(_)(_/_/ (_(_(_// (_(_(_(__(_(_(_) 
  (_____                   ) /            .-/                              
         )                (_/            (_/                               
-$gref
+$f
 "
 echo "
 
@@ -26,7 +26,7 @@ echo "
 op=0
 
 while [ "$op" != "sair" ] ; do 
-  echo -n -e "$gre Informe qual das 12 questões você deseja acessar: $gref"
+  echo -n -e "$gre Informe qual das 12 questões você deseja acessar: $f"
   read op
   echo " "
   if [ "$op" = "sair" ] ; then
