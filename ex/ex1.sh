@@ -5,15 +5,11 @@ echo "
     ./meuscript.sh 23 14 O maior número é 23. A soma dos números é 37.
 "
 
-read -p "Digite o primeiro parâmetro: " a
-read -p "Digite o segundo parâmetro: " b
+valores=$(bash erros/numerico.sh)
+a=$(echo $valores | cut -d ' ' -f 1)
+b=$(echo $valores | cut -d ' ' -f 2)
 
-
-echo $(bash erros/numerico.sh $a $b)
-
-
-
-if [ $1 -gt $2 ] ; then
+if [ $a -gt $b ] ; then
 	echo "O maior numero é $a"
 	else
 	echo "O maior numero é $b"
