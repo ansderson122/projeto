@@ -1,7 +1,4 @@
 #!/bin/bash
-export a=0
-export b=0
-export c=0
 
 red="\033[0;31m"
 redf="\033[0m"
