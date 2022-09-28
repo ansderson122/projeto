@@ -1,6 +1,8 @@
 #!/bin/bash
+#https://www.dicas-l.com.br/cantinhodoshell/cantinhodoshell_20070720.php
 export f="\033[0m"
 export red="\033[0;31m"
+export redN="\033[1;31m"
 export gre="\033[0;32m"
 export cyan="\033[0;36m"
 
