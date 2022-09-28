@@ -3,12 +3,13 @@
  echo -e "$red Exercício 4 $f Elaborar um script que receba um número como parâmetro e imprima todos os números pares de O até o número informado como parâmetro."
  echo -e "$red Exemplo:$f ./meuscript.sh 10 0246 8 10 \n"
 
-read -p "Digite um número" a
+read -p "Digite um número: " a
 
 for i in $(seq 1 1 $a); do 
 
+
     if [ $(($i%2)) -eq 0 ]; then
-        echo $a
+        echo -e $blu"$i"$f
     fi
 
 done
