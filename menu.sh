@@ -31,14 +31,13 @@ while [ "$op" != "sair" ] ; do
   echo " "
   if [ "$op" = "sair" ] ; then
     echo "OBRIGADO 🤗️"
-    echo "ATE A PROXIMA 🖐️"
+    echo -e "ATE A PROXIMA 🖐️ \n"
     continue
   elif [ -f "ex/ex$op.sh" ] ; then
-    echo " "
+    echo
     bash "ex/ex$op.sh" 
     else
-      echo "Tente novamente 🤔️"
-      echo " " 
+      echo -e "Tente novamente 🤔️ \n"
   fi
   
   
