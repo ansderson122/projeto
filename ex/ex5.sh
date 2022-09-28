@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Exercício 5 Elaborar um script que receba um nome de arquivo como parâmetro e verifique se esse arquivo existe. Em caso afirmativo, imprimir o seu tamanho em bytes. Exemplo 1: 
-    ./meuscript.sh /etc/fstab O arquivo /etc/fstab existe e tem 861 bytes. Exemplo 2: ./meuscript.sh /etc/arqqualquer O arquivo /etc/arqqualquer não existe"
+echo -e "$red Exercício 5$redf Elaborar um script que receba um nome de arquivo como parâmetro e verifique se esse arquivo existe. Em caso afirmativo, imprimir o seu tamanho em bytes. \n 
+$red Exemplo 1:$redf ./meuscript.sh /etc/fstab \n O arquivo /etc/fstab existe e tem 861 bytes. \n $redd Exemplo 2:$redf ./meuscript.sh /etc/arqqualquer\n O arquivo /etc/arqqualquer não existe\n"
     
 read -p "Digite um nome de arquivo" a
  
