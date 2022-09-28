@@ -1,8 +1,7 @@
 #!/bin/bash
 
- echo "Exercício 4 Elaborar um script que receba um número como parâmetro e imprima todos os números pares de 
-    O até o número informado como parâmetro. Exemplo: 
-    ./meuscript.sh 10 0246 8 10 "
+ echo -e "$red Exercício 4 $redf Elaborar um script que receba um número como parâmetro e imprima todos os números pares de O até o número informado como parâmetro."
+ echo -e "$red Exemplo:$redf ./meuscript.sh 10 0246 8 10 \n"
 
 read -p "Digite um número" a
 
