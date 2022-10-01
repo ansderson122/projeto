@@ -11,7 +11,6 @@ $redN Exemplo:$f
 usr=$(cat /etc/passwd | cut -d ":" -f1)
 dir=$(cat /etc/passwd | cut -d ":" -f6)
 
-
 pas(){
     # $1 é con
     con=1

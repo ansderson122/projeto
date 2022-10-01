@@ -12,6 +12,8 @@
 
 read -p "Digite um número: " a
 
+valor=$(bash erros/numeroInteiro.sh)
+a=$(echo $valor)
 for i in $(seq 1 1 $a); do 
 
 
@@ -20,5 +22,4 @@ for i in $(seq 1 1 $a); do
     fi
 
 done
-
 echo

@@ -8,11 +8,11 @@ $red Exemplo 1:$f ./meuscript.sh /etc/fstab
      O arquivo /etc/arqqualquer não existe.
 "
     
-read -p "Digite um nome de arquivo" a
+read -p "Digite um nome de arquivo: " a
  
 if [ -e $a ]; then 
-    echo "O arquivo $a existe e tem $( stat -c %s $a) bytes."
+    echo "O arquivo '$a' existe e tem $( stat -c %s $a) bytes."
     else 
-    echo "O arquivo $a nao existe."
+    echo "O arquivo '$a' nao existe."
 fi
 echo

@@ -8,7 +8,7 @@ echo -e "$red Exemplo 1:$f ./meuscript.sh /tmp
     dir2 (dir)
 "
  
- read -p "Digite um diretório" a
+read -p "Digite um diretório: " a
 
 
 dir=$(ls -1 $a)
@@ -20,4 +20,3 @@ for i in $dir ; do
     fi
 done 
 echo
-

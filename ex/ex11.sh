@@ -8,6 +8,6 @@ $red Exemplo:$f
     calculadora.sh 7-2
 "
 
-read -p "Digite o parâmetro: " a
+read -p "Digite uma operação: " a
 operacao=$(($a))
-echo $operacao
+echo "= $operacao"
