@@ -11,7 +11,7 @@ Neste projeto foi feito um sistema para solucionar as 13 questões passadas pelo
 
 Baixe o repositorio pelo o seguinte comando:
 ```git
-git clone  https://github.com/ansderson122/projeto.git
+git clone https://github.com/ansderson122/projeto.git
 ```
 Entre na pasta:
 ```bash
