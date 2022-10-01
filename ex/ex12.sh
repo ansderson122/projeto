@@ -1,12 +1,11 @@
 #!/bin/bash
+echo -e "$redN Exercício 12$f Desenvolva um script que apresente na tela os usuários cadastrados no sistema e os seus respectivos diretórios home. 
 
-
-
- echo "Exercício 12 Desenvolva um script que apresente na tela os usuários cadastrados no sistema e os seus respectivos diretórios home. Exemplo: 
-    klayson => /home/klayson alunolab => /home/alunolab root => /root"
-
-read -p "Digite o parâmetro: " a
-
+$redN Exemplo:$f 
+    klayson => /home/klayson 
+    alunolab => /home/alunolab
+    root => /root
+"
 
 # /etc/passwd etc.txt 
 usr=$(cat /etc/passwd | cut -d ":" -f1)
