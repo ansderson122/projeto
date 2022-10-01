@@ -2,7 +2,10 @@
 
 echo -e -n "$redN Exercício 1$f "
 echo "Elaborar um script que receba dois números como parâmetros e como resultado da sua execução exiba as seguintes informações: - O maior dos números recebidos; - O somatório dos números recebidos."
-echo -e "$red Exemplo: $f./meuscript.sh 23 14\n  O maior número é 23.\n  A soma dos números é 37. \n"
+echo -e "$red Exemplo:$f./meuscript.sh 23 14  
+	O maior número é 23.  
+	A soma dos números é 37.
+"
 
 valores=$(bash erros/numerico.sh)
 a=$(echo $valores | cut -d ' ' -f 1)

@@ -1,7 +1,14 @@
 #!/bin/bash
 
  echo -e "$red Exercício 4 $f Elaborar um script que receba um número como parâmetro e imprima todos os números pares de O até o número informado como parâmetro."
- echo -e "$red Exemplo:$f ./meuscript.sh 10 0246 8 10 \n"
+ echo -e "$red Exemplo:$f ./meuscript.sh 10 
+    0
+    2
+    4
+    6 
+    8 
+    10 
+"
 
 read -p "Digite um número: " a
 
