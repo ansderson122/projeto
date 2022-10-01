@@ -5,6 +5,6 @@ $redN Exemplo:$f
     /bin/sh => 17 usuários. 
 "
 
-lis="$(cat /etc/passwd | cut -d ":" -f7 | sort | uniq -c | sort -n | tr '\n' '\n')"
+lis="$(cat /etc/passwd | grep -E "root|home" | cut -d ":" -f 7 | sort | uniq -c | sort | head -n 1 | tr -s "  " | awk '{ print $2 "  => " $1 })'
 echo $lis
 echo
