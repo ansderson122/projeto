@@ -29,7 +29,7 @@ echo "
 op=0
 
 while [ "$op" != "sair" ] ; do 
-  echo -n -e "$gre Informe qual das 12 questões você deseja acessar: $f"
+  echo -n -e "$gre Informe qual das 13 questões você deseja acessar: $f"
   read op
   echo " "
   if [ "$op" = "sair" ] ; then
