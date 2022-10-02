@@ -27,7 +27,7 @@ echo "
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 "
 op=0
-
+echo -e "$gre Digite sair para sair \n$f"
 while [ "$op" != "sair" ] ; do 
   echo -n -e "$gre Informe qual das 13 questões você deseja acessar: $f"
   read op
